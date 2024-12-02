@@ -39,7 +39,7 @@
 &kp TAB    &kp W  &kp L  &kp Y     &kp P  &kp B        &kp Z    &kp F  &kp O      &kp U    &kp SQT   &kp BSPC
 &kp LCTRL  &kp C  &kp R  &kp S     &kp T  &kp G        &kp M    &kp N  &kp E      &kp I    &kp A     &kp SEMICOLON
 &kp LSHFT  &kp Q  &kp J  &kp V     &kp D  &kp K        &kp X    &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                         &kp LGUI  &mo 2  &kp SPACE    &kp RET  &mo 1  &kp RALT
+                         &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
             >;
         };
 
@@ -72,15 +72,6 @@
 &kp LEFT_CONTROL  &none   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE        &trans  &trans
 &kp LSHFT         &trans  &trans        &trans        &trans        &trans          &trans   &kp K_PREVIOUS     &kp K_NEXT       &kp K_PLAY_PAUSE  &trans  &kp ESCAPE
                                         &kp LGUI      &trans        &kp SPACE       &kp RET  &trans             &kp RALT
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
