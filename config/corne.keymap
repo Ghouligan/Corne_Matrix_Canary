@@ -68,10 +68,19 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB           &none         &none         &bt BT_CLR    &none         &none           &none    &none              &none            &none             &none   &kp BSPC
-&kp LEFT_CONTROL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE        &trans  &trans
-&kp LSHFT         &trans        &trans        &trans        &trans        &trans          &trans   &kp K_PREVIOUS     &kp K_NEXT       &kp K_PLAY_PAUSE  &trans  &kp ESCAPE
-                                              &kp LGUI      &trans        &kp SPACE       &kp RET  &trans             &kp RALT
+&kp TAB           &none   &none         &bt BT_CLR    &none         &none           &none    &none              &none            &none             &none   &kp BSPC
+&kp LEFT_CONTROL  &none   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE        &trans  &trans
+&kp LSHFT         &trans  &trans        &trans        &trans        &trans          &trans   &kp K_PREVIOUS     &kp K_NEXT       &kp K_PLAY_PAUSE  &trans  &kp ESCAPE
+                                        &kp LGUI      &trans        &kp SPACE       &kp RET  &trans             &kp RALT
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
