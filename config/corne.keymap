@@ -15,12 +15,13 @@
             label = "HTAP";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <125>;
-            quick-tap-ms = <100>;
-            hold-trigger-key-positions = <0 1 1 2 3 4 5 13 14 15 16 17 25 26 27 28 29 36 37 38 12 24 39 40 41>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
+            hold-trigger-key-positions = <0 1 1 2 3 4 5 13 14 15 16 17 25 26 27 28 29 36 38 12 24 39 40 41 37>;
             bindings = <&kp>, <&kp>;
 
             require-prior-idle-ms = <(-1)>;
+            hold-trigger-on-release;
         };
     };
 
