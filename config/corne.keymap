@@ -37,10 +37,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P          &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
-                         &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
+&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I            &kp O    &kp P          &kp BSPC
+&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K            &kp L    &kp SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA        &kp DOT  &kp FSLH       &kp ESC
+                         &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp LC(LA(TAB))
             >;
         };
 
@@ -53,10 +53,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB    &none               &htap AMPERSAND N7          &htap ASTERISK N8       &htap LEFT_PARENTHESIS N9  &none         &kp CARET   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp BSPC
-&kp LCTRL  &htap LS(MINUS) N0  &htap DOLLAR NUMBER_4       &htap PERCENT N5        &htap CARET NUMBER_6       &kp MINUS     &kp LEFT    &kp DOWN              &kp UP_ARROW           &kp RIGHT      &kp MINUS         &kp GRAVE
-&kp LSHFT  &none               &htap EXCLAMATION NUMBER_1  &htap AT_SIGN NUMBER_2  &htap HASH NUMBER_3        &kp PERIOD    &kp K_COPY  &kp K_PASTE           &none                  &none          &kp SLASH         &kp ESCAPE
-                                                           &kp LGUI                &trans                     &kp SPACE     &kp RET     &trans                &kp RALT
+&kp TAB    &htap PERCENT N5            &htap CARET NUMBER_6    &htap AMPERSAND N7   &htap ASTERISK N8      &htap LEFT_PARENTHESIS N9     &kp CARET  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp BSPC
+&kp LCTRL  &htap EXCLAMATION NUMBER_1  &htap AT_SIGN NUMBER_2  &htap HASH NUMBER_3  &htap DOLLAR NUMBER_4  &htap RIGHT_PARENTHESIS N0    &kp LEFT   &kp DOWN       &kp UP_ARROW          &kp RIGHT              &kp MINUS         &kp GRAVE
+&kp LSHFT  &kp LC(Z)                   &kp LC(X)               &kp LC(C)            &kp LC(V)              &kp PERIOD                    &none      &none          &kp COMMA             &kp PERIOD             &kp SLASH         &kp ESCAPE
+                                                               &kp LGUI             &trans                 &kp SPACE                     &kp RET    &trans         &kp LC(LA(TAB))
             >;
         };
 
